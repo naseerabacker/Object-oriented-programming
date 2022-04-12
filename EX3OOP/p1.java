@@ -54,7 +54,7 @@ public static void main(String args[])
             System.out.print("\n");
 //comparing and finding smallif(obj1.price<obj2.price && obj1.price<obj3.price)  
            if(obj1.price<obj2.price && obj1.price<obj3.price)  
-             System.out.println(" Product code= " +obj1.pcode+" , Product  name="+obj1.pname+" , price="+obj1.price); 
+             System.out.println(" Product code= " +obj1.pcode+" , Product        name="+obj1.pname+" , price="+obj1.price); 
 
            if(obj2.price<obj1.price && obj2.price<obj3.price)  
              System.out.println(" Product code= " +obj2.pcode+" , Product name="+obj2.pname+" , price="+obj2.price);
@@ -66,25 +66,4 @@ public static void main(String args[])
              
 }
 }
-/*
-INPUT
-
-Enter person 1  pcode,pname,price: 
- 12
-MANGO 
-12
-Enter person 2  pcode,pname,price:
- 11
-TOMATO
-42
-Enter person 3  pcode,pname,price:
- 13
-ONION
-56
-
-OUTPUT
-
- Product code= 12 , Product name=MANGO , price=12
-*/
-
 
