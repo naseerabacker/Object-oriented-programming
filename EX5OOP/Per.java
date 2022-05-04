@@ -129,3 +129,126 @@ class Per
         }
     }
 }
+
+/*
+Enter the number of teachers: 
+3
+Enter details of teacher no : 1
+Enter person name: 
+meena
+Enter gender : 
+f
+Enter employee address : 
+kallanthode
+Enter employee age: 
+34
+Enter employee id : 
+111
+Enter company name : 
+ttt
+Enter qualification : 
++2
+Enter employee salary : 
+10000
+Enter subject : 
+computer
+Enter department : 
+cs
+Enter teacher id : 
+112
+------------
+
+Enter details of teacher no : 2
+Enter person name: 
+john
+Enter gender : 
+m
+Enter employee address : 
+kattangal
+Enter employee age: 
+40
+Enter employee id : 
+232 
+Enter company name : 
+tcs
+Enter qualification : 
+degree
+Enter employee salary : 
+20000
+Enter subject : 
+maths
+Enter department : 
+maths
+Enter teacher id : 
+475
+------------
+
+Enter details of teacher no : 3
+Enter person name: 
+kenn
+Enter gender : 
+m
+Enter employee address : 
+calicut
+Enter employee age: 
+33
+Enter employee id : 
+987
+Enter company name : 
+tcs
+Enter qualification : 
+degree
+Enter employee salary : 
+30000
+Enter subject : 
+maths
+Enter department : 
+maths
+Enter teacher id : 
+333
+------------
+
+Details of employee
+
+
+Details of teacher no : 1
+Person name= meena
+Gender= f
+Address= kallanthode
+Age= 34
+Employee id= 111
+Company Name= ttt
+Qualification= +2
+Salary= 10000.0
+Subject= computer
+Department= cs
+Teacher id= 112
+
+Details of teacher no : 2
+Person name= john
+Gender= m
+Address= kattangal
+Age= 40
+Employee id= 232
+Company Name= tcs
+Qualification= degree
+Salary= 20000.0
+Subject= maths
+Department= maths
+Teacher id= 475
+
+Details of teacher no : 3
+Person name= kenn
+Gender= m
+Address= calicut
+Age= 33
+Employee id= 987
+Company Name= tcs
+Qualification= degree
+Salary= 30000.0
+Subject= maths
+Department= maths
+Teacher id= 333
+
+
+*/
