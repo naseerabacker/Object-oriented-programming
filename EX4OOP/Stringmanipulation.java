@@ -11,8 +11,10 @@ methods.
 */
 
 
-class Stringmanipulation{
-   public static void main(String[] args){
+class Stringmanipulation
+	{
+   public static void main(String[] args)
+	{
       //newstring using new
       char chs[]={'w','e','l','c','o','m','e'};
       String newstr=new String(chs);
@@ -47,27 +49,27 @@ class Stringmanipulation{
 	s2="welcome";
 	System.out.println(s1+"equals"+s2+":"+s1.equals(s2));
 	System.out.println(s1+"equalsIgnoreCase" +":"+s1.equalsIgnoreCase(s2));
-	   System.out.println(s1+"compareTo"+s2+":"+s1.compareTo(s2));					       System.out.println(s1+"compareToIgnoreCase"+s2+":"+s1.compareToIgnoreCase(s2));
+	   				System.out.println(s1+"compareTo"+s2+":"+s1.compareTo(s2));					       System.out.println(s1+"compareToIgnoreCase"+s2+":"+s1.compareToIgnoreCase(s2));
 	
           System.out.println(s1+"startsWith w: "+s1.startsWith("w"));
          	System.out.println(s1+"ends WITH x: "+s1.endsWith("x"));
     //substring search
 	System.out.println("__________________SEARCH SUBSTRING__________");
 	s1="hello friends";
-	System.out.println("index of friends in: "+s1+":"+s1.indexOf("friends"));
+	System.out.println("index of friends in: 	"+s1+":"+s1.indexOf("friends"));
 
     //Modifying a string
 	System.out.println("__________________STRING MODIFICATION__________");
     s1="WHERE";
     s2="IS MY PEN";
-    System.out.println("SUBSTRING OF"+s1.substring(0,4));
-    System.out.println("SUBSTRING OF"+s1.substring(0));
-    System.out.println("The trim of string is:"+s1.trim());
-    System.out.println("MODIFY USING REPLACE"+s1.replace("NAME","SUPERNAME"));
+    System.out.println("Substring of  "+s1.substring(0,4));
+    System.out.println("Substring of  "+s1.substring(0));
+    System.out.println("The trim of string is: "+s1.trim());
+    System.out.println("Modify using replace: "+s1.replace("NAME","SUPERNAME"));
 
-    System.out.println("__________DATA CONVERSION USING VALUEof()________________");
+    System.out.println("__________DATA CONVERSION USING valueOf()________________");
     int a=4;
-    System.out.println("value of"+a+" + "+String.valueOf(a));
+    System.out.println("value of "+a+" + "+String.valueOf(a));
 }
 
 
@@ -97,11 +99,11 @@ WELCOMEends WITH x: false
 __________________SEARCH SUBSTRING__________
 index of friends in: hello friends:6
 __________________STRING MODIFICATION__________
-SUBSTRING OFWHER
-SUBSTRING OFWHERE
-The trim of string is:WHERE
-MODIFY USING REPLACEWHERE
-__________DATA CONVERSION USING VALUEof()________________
-value of4 + 4
+Substring of WHER
+Substring of WHERE
+The trim of string is: WHERE
+modify using replace: WHERE
+__________DATA CONVERSION USING valueOf()________________
+value of 4 + 4
 
 */
