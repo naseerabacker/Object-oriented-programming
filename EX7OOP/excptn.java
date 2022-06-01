@@ -52,26 +52,20 @@ class excptn
 }
 
 /*
+ksb@ksb-ThinkCentre-Edge72:~/Desktop/naseeras2/java/EX7OOP$ java excptn
 ENTER THE NUMBER OF LIMIT:
-4
+5
+ENTER NUMBERS:
+-1
+NEGATIVE NUMBERS ARE NOT ALLOWED
+^Cksb@ksb-ThinkCentre-Edge72:~/Desktop/naseeras2/java/EX7OOP$ javac excptn.java
+ksb@ksb-ThinkCentre-Edge72:~/Desktop/naseeras2/java/EX7OOP$ java excptn
+ENTER THE NUMBER OF LIMIT:
+2
 ENTER NUMBERS:
 1
-5
-3
-6
-AVERAGE OF 4 POSITIVE NUMBER:3.75
-
-$ java excptn
-ENTER THE NUMBER OF LIMIT:
-5
-ENTER NUMBERS:
 2
-4
-6
-4
-6
-AVERAGE OF 5 POSITIVE NUMBER:4.4
-
+AVERAGE OF 2 POSITIVE NUMBER:1.5
 
 */
 
