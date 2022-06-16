@@ -3,13 +3,15 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class calculator extends Frame implements ActionListener {
+public class calculator extends Frame implements ActionListener
+{
 Button sum,diff,pro,div;
 String str="";
 int res;
 TextField n1,n2,n3;
 
-public calculator() {
+public calculator() 
+{
 // Use a flow layout.
 setLayout(new FlowLayout());
 
@@ -52,30 +54,37 @@ diff.addActionListener(this);
 pro.addActionListener(this);
 div.addActionListener(this);
 
-addWindowListener(new WindowAdapter() {
-public void windowClosing(WindowEvent we) {
+addWindowListener(new WindowAdapter()
+{
+public void windowClosing(WindowEvent we)
+{
 System.exit(0);
 }
 });
 }
 
 // User pressed Enter.
-public void actionPerformed(ActionEvent ae) {
+public void actionPerformed(ActionEvent ae)
+{
 
 int a=Integer.parseInt(n1.getText());
 int b=Integer.parseInt(n2.getText());
 
 String str=ae.getActionCommand();
-if(str.equals("SUM")){
+if(str.equals("SUM"))
+{
 res=a+b;
 }
-else if(str.equals("DIFFERENCE")){
+else if(str.equals("DIFFERENCE"))
+{
 res=a-b;
 }
-else if(str.equals("PRODUCT")){
+else if(str.equals("PRODUCT"))
+{
 res=a*b;
 }
-else if(str.equals("QUOTIENT")){
+else if(str.equals("QUOTIENT"))
+{
 res=a/b;
 }
 n3.setText(Integer.toString(res));
@@ -86,7 +95,8 @@ repaint();
 public void paint(Graphics g) { }
 
 
-public static void main(String[] args) {
+public static void main(String[] args) 
+{
 calculator appwin = new calculator();
 
 appwin.setSize(new Dimension(320, 250));
